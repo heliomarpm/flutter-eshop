@@ -2,9 +2,7 @@
 
 Projeto de estudos do Flutter
 
-<img src="https://github.com/heliomarpm/prints/blob/main/eShop_Home.png?raw=true" height="500" alt="Home"/>
-<img src="https://github.com/heliomarpm/prints/blob/main/eShop_Product.png?raw=true" height="500" alt="Product"/>
-<img src="https://github.com/heliomarpm/prints/blob/main/eShop_Cart.png?raw=true" height="500" alt="Cart"/>
+<img src="https://github.com/heliomarpm/prints/blob/main/eShop_Home.png?raw=true" height="350" alt="Home"/><img src="https://github.com/heliomarpm/prints/blob/main/eShop_Product.png?raw=true" height="350" alt="Product"/><img src="https://github.com/heliomarpm/prints/blob/main/eShop_Cart.png?raw=true" height="350" alt="Cart"/>
 
 <details>
 <summary>Flutter Docs</summary>

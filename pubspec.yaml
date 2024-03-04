@@ -14,7 +14,9 @@ dependencies:
 
   cupertino_icons: ^1.0.6
   intl: ^0.18.1
-
+  device_preview:
+    git:
+      url: https://github.com/abuanwar072/device_preview.git
 
 dev_dependencies:
   flutter_test:

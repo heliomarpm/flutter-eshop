@@ -6,7 +6,9 @@ import 'pages/home_page.dart';
 import 'pages/cart_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(DevicePreview(
+    builder: (context) => const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -17,6 +19,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'eShop v1.0',
+      locale: DevicePreview.locale(context),
+      builder: DevicePreview.appBuilder,
       theme: ThemeData(
         primarySwatch: AppTheme().lilas,
         scaffoldBackgroundColor: Colors.grey[100],

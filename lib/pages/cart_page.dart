@@ -1,12 +1,12 @@
-import 'package:eshop/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+import '../pages/home_page.dart';
 import '../widgets/custom_app_bar.dart';
 import '../widgets/list_cart.dart';
 
 class CartPage extends StatefulWidget {
-  const CartPage({Key? key}) : super(key: key);
+  const CartPage({super.key});
 
   @override
   State<CartPage> createState() => _CartPageState();

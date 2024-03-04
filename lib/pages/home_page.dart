@@ -59,13 +59,13 @@ class HomePage extends StatelessWidget {
   ];
   static List<ItemCart> itemsCart = [];
 
-  HomePage({Key? key}) : super(key: key);
+  HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const CustomAppBar(
-        title: "eShop",
+        title: "eShop", 
         // centerTitle: true,
       ),
       // backgroundColor: Colors.grey[200],

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-import '../models/product.dart';
-import '../pages/product_page.dart';
 import 'gradient_container.dart';
+import '../pages/product_page.dart';
+import '../models/product.dart';
 
 class TileProduct extends StatelessWidget {
   final Product product;
 
-  const TileProduct({Key? key, required this.product}) : super(key: key);
+  const TileProduct({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../models/item_cart.dart';
-import '../models/product.dart';
 import '../pages/home_page.dart';
 
 class ListCart extends StatefulWidget {

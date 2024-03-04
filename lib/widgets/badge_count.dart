@@ -1,5 +1,6 @@
-import 'package:eshop/pages/home_page.dart';
 import 'package:flutter/material.dart';
+
+import '../pages/home_page.dart';
 
 class BadgeCount extends StatelessWidget {
   const BadgeCount({super.key});

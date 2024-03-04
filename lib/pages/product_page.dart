@@ -7,7 +7,7 @@ import '../widgets/custom_app_bar.dart';
 class ProductPage extends StatefulWidget {
   final Product product;
 
-  const ProductPage({Key? key, required this.product}) : super(key: key);
+  const ProductPage({super.key, required this.product});
 
   @override
   State<ProductPage> createState() => _ProductPageState();

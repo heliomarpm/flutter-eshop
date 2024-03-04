@@ -1,13 +1,9 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {
   final Color? secondaryColor;
 
-  const GradientContainer({
-    Key? key,
-    this.secondaryColor,
-  }) : super(key: key);
+  const GradientContainer({super.key, this.secondaryColor});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +15,7 @@ class GradientContainer extends StatelessWidget {
           colors: [
             Colors.transparent,
             // Color.fromRGBO(178, 155, 178, 0.9)
-            secondaryColor?? Theme.of(context).primaryColor,
+            secondaryColor ?? Theme.of(context).primaryColor,
           ],
         ),
       ),

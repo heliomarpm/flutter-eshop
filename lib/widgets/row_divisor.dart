@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class RowDivisor extends StatelessWidget {
   final String title;
 
-  const RowDivisor({Key? key, required this.title}) : super(key: key);
+  const RowDivisor({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {

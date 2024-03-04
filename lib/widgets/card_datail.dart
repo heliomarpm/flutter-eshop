@@ -1,17 +1,16 @@
-import 'package:eshop/models/item_cart.dart';
-import 'package:eshop/pages/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../models/product.dart';
+import '../models/item_cart.dart';
+import '../pages/home_page.dart';
 
 class CardDetail extends StatelessWidget {
   final Product product;
   final formatReal = NumberFormat.currency(locale: "pt_BR", symbol: "R\$");
   final Function updatePage;
 
-  CardDetail({Key? key, required this.product, required this.updatePage})
-      : super(key: key);
+  CardDetail({super.key, required this.product, required this.updatePage});
 
   @override
   Widget build(BuildContext context) {
@@ -63,15 +62,13 @@ class CardDetail extends StatelessWidget {
     debugPrint("👉 ${HomePage.itemsCart.length}");
     updatePage();
   }
-
 }
 
 class TextCardDetail extends StatelessWidget {
   final String text;
   final TextStyle? style;
 
-  const TextCardDetail({Key? key, required this.text, this.style})
-      : super(key: key);
+  const TextCardDetail({super.key, required this.text, this.style});
 
   @override
   Widget build(BuildContext context) {

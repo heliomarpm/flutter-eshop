@@ -1,12 +1,12 @@
-import 'package:eshop/widgets/tile_product.dart';
 import 'package:flutter/material.dart';
 
+import 'tile_product.dart';
 import '../models/product.dart';
 
 class ViewProducts extends StatelessWidget {
   final List products;
 
-  const ViewProducts({Key? key, required this.products}) : super(key: key);
+  const ViewProducts({super.key, required this.products});
 
   @override
   Widget build(BuildContext context) {

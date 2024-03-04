@@ -1,12 +1,16 @@
-import 'package:eshop/widgets/cart_button.dart';
 import 'package:flutter/material.dart';
 
-class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
+import 'cart_button.dart';
+
+class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final bool isCartPage;
 
-  const CustomAppBar({Key? key, required this.title, this.isCartPage = false})
-      : super(key: key);
+  const CustomAppBar({
+    super.key,
+    required this.title,
+    this.isCartPage = false,
+  });
 
   @override
   Widget build(BuildContext context) {
